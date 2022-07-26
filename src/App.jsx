@@ -1,13 +1,16 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Layout from "./components/Layout";
+import ProductCard from "./components/ProductCard";
 
 const App = () => {
-  return (
-    <main>
-     <h1>Welcome to React</h1>
-    </main>
-  );
-}
+    return (
+        <main>
+            <Layout>
+                <ProductCard />
+            </Layout>
+        </main>
+    );
+};
 
 export default App;
-
